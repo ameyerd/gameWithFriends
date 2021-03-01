@@ -3,4 +3,7 @@ CSCI 3100 Individual Project
 Amey Erdenebileg
 Andrew Yamane
 
-To run: npm start
+
+To run: 
+cd game // go to gameWithFriends/game/
+npm start //start React App
