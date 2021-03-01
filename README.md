@@ -1,9 +1,11 @@
 ## gameWithFriends
 CSCI 3100 Individual Project
 
-#Contributors: Amey Erdenebileg, Andrew Yamane
+Contributors: Amey Erdenebileg, Andrew Yamane
 
 
-#To run: 
+To run: 
 - cd game // go to gameWithFriends/game/
 - npm start //start React App
+
+* Make sure to have node_modules
