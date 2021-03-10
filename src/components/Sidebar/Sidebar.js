@@ -1,26 +1,26 @@
 
 import React from 'react'
-import {SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute} from "./SidebarElements";
+import {SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SideBarRoute} from "./SidebarElements";
 
 
-const Sidebar = () => {
+const Sidebar = ({isOpen, toggle}) => {
     return (
-        <SidebarContainer>
-            <Icon>
+        <SidebarContainer isOpen={isOpen} onClick={toggle}>
+            <Icon onClick={toggle}>
                 <CloseIcon />
             </Icon>
-            <SidebarWrapper>>
+            <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="about">
+                    <SidebarLink to="about" onClick={toggle}>
                         About
                     </SidebarLink>
-                    <SidebarLink to="find-friends">
+                    <SidebarLink to="find-friends" onClick={toggle}>
                         Find Friends
                     </SidebarLink>
-                    <SidebarLink to="games">
+                    <SidebarLink to="games" onClick={toggle}>
                         Games
                     </SidebarLink>
-                    <SidebarLink to="sign-up">
+                    <SidebarLink to="sign-up" onClick={toggle}>
                         Sign Up
                     </SidebarLink>
                 </SidebarMenu>
