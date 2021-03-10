@@ -1,6 +1,6 @@
 # gameWithFriends
 
-CSCI 3100 Individual Project
+CSCI 3100 Individual Project <br />
 Contributors: Amey Erdenebileg, Andrew Yamane
 
 
