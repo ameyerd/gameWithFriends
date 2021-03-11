@@ -1,31 +1,26 @@
-import React, {useState} from 'react';
-import './App.css';
-import { Route, Link} from 'react-router-dom';
-import Friends from './pages/Friends';
-import Home from './pages/Home';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import GlobalStyle from './globalStyles';
 import Navbar from './components/Navbar/Navbar';
-import Sidebar from './components/Sidebar/Sidebar';
 
+//pages
+import Home from './pages/Home/Home';
+import Friends from './pages/Friends/Friends';
 
 function App() {
-  const [isOpen, setIsOpen]  = useState(false)
-
-    //update state
-    const toggle = () => {
-        setIsOpen(!isOpen)
-    }
 
   return (
-    <div >
+    <Router >
 
-      <Sidebar isOpen={isOpen} toggle={toggle}/>
-      <Navbar toggle={toggle}/>
+      <GlobalStyle />
+      <Navbar />
 
-      <Route exact path="/" component={Home} />
-      <Route exact path="/Friends" component={Friends} />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/friends" component={Friends} />
+      </Switch>
 
-
-    </div>
+    </Router>
 
   );
 }

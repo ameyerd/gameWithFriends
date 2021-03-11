@@ -1,9 +1,9 @@
 /* Navbar.js */
 
-import React, { useState} from 'react';
-import { unstable_renderSubtreeIntoContainer } from 'react-dom';
+import React from 'react';
 import { FaBars } from 'react-icons/fa';
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavbarElements';
+import { Link } from "react-router-dom";
  
 /* TO DO
 
@@ -13,8 +13,6 @@ import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, N
 
 
 const Navbar = ({ toggle}) => {
-    const [click, setClick] = useState(false);
-    const handleClick = () => setClick(!click);
 
     return (
         <>
@@ -26,14 +24,11 @@ const Navbar = ({ toggle}) => {
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
-                    <NavMenu onClick={toggle} click={click}>
+                    <NavMenu>
                         <NavItem>
                             <NavLinks to="/"> 
                                 Home
                             </NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to="/friends">Friends</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="/games">Games</NavLinks>

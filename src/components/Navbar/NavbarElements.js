@@ -20,7 +20,7 @@ export const Nav = styled.nav`
     align-items: center;
     flex-wrap: wrap;
     background: #313233;
-    position: absolute;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
