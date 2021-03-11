@@ -1,21 +1,11 @@
-import React, {useState} from 'react';
-import Navbar from '../components/Navbar/Navbar'
-import Sidebar from '../components/Sidebar/Sidebar'
+import React from 'react';
 
 const Home = () => {
-    const [isOpen, setIsOpen]  = useState(false)
-
-    //update state
-    const toggle = () => {
-        setIsOpen(!isOpen)
-    }
-
-
-
     return (
         <>
-            <Sidebar isOpen={isOpen} toggle={toggle}/>
-            <Navbar toggle={toggle}/>
+            <h1>
+                HELLO THIS IS THE HOME PAGE
+            </h1>
             
         </>
     );

@@ -3,9 +3,17 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavbarElements';
+import { Link } from "react-router-dom";
+ 
+/* TO DO
+
+- need to make nav items clickable
+    - needs to send user to correct page
+*/
 
 
 const Navbar = ({ toggle}) => {
+
     return (
         <>
             <Nav>
@@ -18,16 +26,18 @@ const Navbar = ({ toggle}) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="friends">Friends</NavLinks>
+                            <NavLinks to="/"> 
+                                Home
+                            </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="games">Games</NavLinks>
+                            <NavLinks to="/games">Games</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="play">Looking To Play</NavLinks>
+                            <NavLinks to="/play">Looking To Play</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="my-profile">My Profile</NavLinks>
+                            <NavLinks to="/my-profile">My Profile</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
