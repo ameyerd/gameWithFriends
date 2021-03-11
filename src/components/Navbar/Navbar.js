@@ -18,16 +18,16 @@ const Navbar = ({ toggle}) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="about">About</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to="find-friends">Find Friends</NavLinks>
+                            <NavLinks to="friends">Friends</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="games">Games</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="sign-up">Sign Up</NavLinks>
+                            <NavLinks to="play">Looking To Play</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="my-profile">My Profile</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
@@ -39,5 +39,5 @@ const Navbar = ({ toggle}) => {
     )
 }
 
-export default Navbar
+export default Navbar;
 
