@@ -7,7 +7,19 @@ Contributors: Amey Erdenebileg, Andrew Yamane
 ## To run: 
 
 Install necessary package and its dependecies with:
-**npm install**
+```
+npm install
+```
+
+npm dependencies:
+```
+npm install --save react-router-dom
+npm install react-scroll
+npm install react-icons --save
+npm install --save styled-components
+```
 
 To run:
-**npm start**
+```
+npm start
+```
