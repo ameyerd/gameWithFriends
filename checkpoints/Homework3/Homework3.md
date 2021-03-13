@@ -1,5 +1,7 @@
 # Homework 3 Checkpoint
 
+***Screenshots included in Homework3 folder***
+
 ### What we planned on doing for this homework deadline
 
 ##### Amey
@@ -48,4 +50,3 @@
 ##### Changes
 - No changes
 
-***Screenshots included in Homework3 folder***
