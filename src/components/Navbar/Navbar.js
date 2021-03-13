@@ -26,7 +26,7 @@ const Navbar = ({ toggle}) => {
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
-                    <NavMenu onClick={toggle} click={click}>
+                    <NavMenu click={click}>
                         <NavItem>
                             <NavLinks to="/"> 
                                 Home

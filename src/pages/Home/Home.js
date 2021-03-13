@@ -6,6 +6,7 @@ import Sidebar from '../../components/Sidebar/Sidebar';
 
 import { homeObjOne, homeObjTwo, homeObjThree} from './Data'
 import InfoSection from '../../components/InfoSection/InfoSection';
+import HeroSection from '../../components/HeroSection/HeroSection'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -16,6 +17,7 @@ const Home = () => {
 
     return (
         <>   
+            <HeroSection/>
             <InfoSection {...homeObjOne} />
             <InfoSection {...homeObjTwo} />
             <InfoSection {...homeObjThree} />

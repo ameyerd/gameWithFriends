@@ -88,7 +88,7 @@ export const NavItem = styled.li`
     padding: 40px;
 `;
 
-export const NavLinks = styled(LinkS)`
+export const NavLinks = styled(LinkR)`
     color: #fff;
     display: flex;
     align-items: center;
