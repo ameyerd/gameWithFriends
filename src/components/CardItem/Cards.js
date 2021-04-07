@@ -15,48 +15,48 @@ function Cards() {
                         path='/games/valorant'
                         />
                         <CardItem src='../../images/gamelogo.png'
-                        text='Game'
-                        label='Game'
-                        path='/games/gameName'
+                        text='Rocket League'
+                        label='Rocket League'
+                        path='/games/rocketleague'
                         />
                         <CardItem src='../../images/gamelogo.png'
-                        text='Game'
-                        label='Game'
-                        path='/games/gameName'
+                        text='Minecraft'
+                        label='Minecraft'
+                        path='/games/minecraft'
                         />
                         <CardItem src='../../images/gamelogo.png'
-                        text='Game'
-                        label='Game'
-                        path='/games/gameName'
-                        />
-                    </ul>
-                    <ul className='cards__items'>
-                        <CardItem src='../../images/gamelogo.png'
-                        text='Game'
-                        label='Game'
-                        path='/games/gameName'
-                        />
-                        <CardItem src='../../images/gamelogo.png'
-                        text='Game'
-                        label='Game'
-                        path='/games/gameName'
-                        />
-                        <CardItem src='../../images/gamelogo.png'
-                        text='Game'
-                        label='Game'
-                        path='/games/gameName'
-                        />
-                        <CardItem src='../../images/gamelogo.png'
-                        text='Game'
-                        label='Game'
-                        path='/games/gameName'
+                        text='Fortnite'
+                        label='Fortnite'
+                        path='/games/fortnite'
                         />
                     </ul>
                     <ul className='cards__items'>
                         <CardItem src='../../images/gamelogo.png'
-                        text='Game'
-                        label='Game'
-                        path='/games/gameName'
+                        text='Overwatch'
+                        label='Overwatch'
+                        path='/games/overwatch'
+                        />
+                        <CardItem src='../../images/gamelogo.png'
+                        text='Destiny'
+                        label='Destiny'
+                        path='/games/destiny'
+                        />
+                        <CardItem src='../../images/gamelogo.png'
+                        text='Apex Legends'
+                        label='Apex Legends'
+                        path='/games/apexlegends'
+                        />
+                        <CardItem src='../../images/gamelogo.png'
+                        text='League of Legends'
+                        label='League of Legends'
+                        path='/games/lol'
+                        />
+                    </ul>
+                    <ul className='cards__items'>
+                        <CardItem src='../../images/gamelogo.png'
+                        text='World of Warcraft'
+                        label='World of Warcraft'
+                        path='/games/wow'
                         />
                         <CardItem src='../../images/gamelogo.png'
                         text='Game'

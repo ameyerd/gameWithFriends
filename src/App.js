@@ -11,6 +11,8 @@ import UserSettings from './pages/UserSettings/UserSettings';
 import Games from './pages/Games/Games';
 import LFG from './pages/LFG/LFG';
 import Profile from './pages/Profile/Profile';
+import SignIn from './pages/SignIn/SignIn';
+import Test from './pages/Test/Test';
 
 function App() {
   
@@ -32,9 +34,11 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/friends" component={Friends} />
         <Route exact path="/games" component={Games} />
+        <Route exact path="/signin" component={SignIn} />
         <Route exact path="/my-profile" component={Profile} />
         <Route exact path="/my-profile/settings" component={UserSettings} />
         <Route exact path="/play" component={LFG} />
+        <Route exact path="/test" component={Test} />
       </Switch>
 
     </Router>

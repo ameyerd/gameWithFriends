@@ -34,9 +34,6 @@ const Navbar = ({ toggle}) => {
                             <NavLinks to="/games">Games</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="/play">Looking To Play</NavLinks>
-                        </NavItem>
-                        <NavItem>
                             <NavLinks to="/my-profile">My Profile</NavLinks>
                         </NavItem>
                     </NavMenu>
