@@ -42,11 +42,12 @@
 
 ##### Andrew
 1. Complete all pages
-2. Complete project presentation
+
 
 ##### Together
 1. Work on integrating the front end and back end together using GraphQL
-2. 2. Make sure no conflicts arise with front-end and back-end integration
+2. Make sure no conflicts arise with front-end and back-end integration
+3. Complete project presentation
 
 ##### Changes
 - No changes
