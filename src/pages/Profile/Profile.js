@@ -1,5 +1,6 @@
 import React, { useState} from 'react';
 
+
 const Profile = () => {
     const [isOpen, setIsOpen] = useState(false)
 
@@ -10,10 +11,14 @@ const Profile = () => {
     return (
         <>
             
-            <h1>Profile Page yuh </h1>
+            <h1>Profile Page </h1>
+            
+            
+            
             
         </>
     );
 };
+
 
 export default Profile;

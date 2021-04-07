@@ -10,7 +10,7 @@ const LFG = () => {
     return (
         <>
             
-            <h1>THIS IS THE FRIENDS PAGE !! </h1>
+            <h1>THIS IS THE LFG PAGE !! </h1>
             
         </>
     );
