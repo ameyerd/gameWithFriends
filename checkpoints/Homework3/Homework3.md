@@ -1,5 +1,7 @@
 # Homework 3 Checkpoint
 
+***Screenshots included in Homework3 folder***
+
 ### What we planned on doing for this homework deadline
 
 ##### Amey
@@ -16,7 +18,17 @@
 
 ### What we actually accomplished for this deadline
 
-???
+1. So far we implemented:
+  - Navigation Bar
+  - Sidebar (for mobile/smaller screens)
+  - Homepage
+    - Most of our homepage is done; we just need to put in all the text and images
+    - On the homepage, we implemented a modal sign up instead of having a separate sign in page
+  - Database Model
+   - Still needs work, not all tables have been created
+  - Games page
+   - Implemented cards for different games each with an image
+
 
 ### What we had planned to do for the next deadline
 
@@ -36,6 +48,5 @@
 5. Integrating the front end and back end together (using GraphQL)
 
 ##### Changes
-???
+- No changes
 
-***Screenshots included in Homework3 folder***
