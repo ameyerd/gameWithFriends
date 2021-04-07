@@ -1,4 +1,5 @@
 import React, { useState} from 'react';
+import friendList from '../../components/friendList/friendList';
 
 const Friends = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -9,11 +10,9 @@ const Friends = () => {
 
     return (
         <>
-            
-            <h1>THIS IS THE FRIENDS PAGE !! </h1>
-            
+            <friendList />
         </>
     );
 };
 
-export default Friends;
+export default Friends
