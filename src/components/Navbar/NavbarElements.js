@@ -19,7 +19,7 @@ export const Nav = styled.nav`
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background: #313233;
+    background: #DA4264;
     position: sticky;
     top: 0;
     left: 0;
@@ -113,7 +113,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
     border-radius: 50px;
-    background: #7cb1e6;
+    background: #ffffff;
     white-space: nowrap;
     padding: 10px 25px;
     color: #313233;
@@ -127,6 +127,6 @@ export const NavBtnLink = styled(LinkR)`
     &:hover {
         transition: all 0.2s ease-in-out;
         backgroud: #fff;
-        color: #fff;
+        color: #DA4264;
     }
 `

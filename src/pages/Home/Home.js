@@ -1,9 +1,5 @@
 import React, {useState} from 'react';
 
-//Navbar
-import Navbar from '../../components/Navbar/Navbar';
-import Sidebar from '../../components/Sidebar/Sidebar';
-
 import { homeObjOne, homeObjTwo, homeObjThree} from './Data'
 import InfoSection from '../../components/InfoSection/InfoSection';
 import HeroSection from '../../components/HeroSection/HeroSection'

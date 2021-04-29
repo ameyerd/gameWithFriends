@@ -9,7 +9,7 @@ export const homeObjOne = {
     description: 'hello hello description here', 
     headline: 'headline here ', 
     topLine: 'text here',
-    img: require('../../images/img4.png'), 
+    img: require('../../images/img1.jpg'), 
     alt: 'image', 
     start: ''
 };
