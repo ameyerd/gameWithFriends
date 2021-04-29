@@ -18,6 +18,7 @@ npm install react-scroll
 npm install react-icons --save
 npm install --save styled-components
 npm install bootstrap
+npm install react-slick --save
 ```
 
 To run:
