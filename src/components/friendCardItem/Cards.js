@@ -35,7 +35,7 @@ function Cards() {
                     </ul>
                     <ul className='cards__items'>
                         <CardItemOnline src='../../images/gamelogo.png'
-                        text='Playing: Valorant'
+                        text='Playing: League of Legends'
                         label='@zeusB'
                         path='/games/overwatch'
                         />

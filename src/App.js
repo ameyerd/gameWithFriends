@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import GlobalStyle from './globalStyles';
 import Navbar from './components/Navbar/Navbar';
 import Sidebar from './components/Sidebar/Sidebar';
+import '../src/App.css';
 
 //pages
 import Home from './pages/Home/Home';
@@ -14,6 +15,7 @@ import Profile from './pages/Profile/Profile';
 import SignIn from './pages/SignIn/SignIn';
 import Test from './pages/Test/Test';
 
+
 function App() {
   
   const [isOpen, setIsOpen]  = useState(false)
@@ -24,6 +26,7 @@ function App() {
   }
 
   return (
+
     <Router >
 
       <GlobalStyle />
@@ -45,5 +48,6 @@ function App() {
 
   );
 }
+
 
 export default App;
