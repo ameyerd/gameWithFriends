@@ -1,5 +1,6 @@
 import React, { useState} from 'react';
 
+import ProfileCard from '../../components/ProfileCard/ProfileCard';
 
 const Profile = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -10,11 +11,7 @@ const Profile = () => {
 
     return (
         <>
-            
-            <h1>Profile Page </h1>
-            
-            
-            
+            <ProfileCard />
             
         </>
     );

@@ -2,7 +2,13 @@ import React from 'react';
 import CardItem from './CardItem';
 import CardItemOnline from './CardItemOnline';
 import './Cards.css';
+
+// image imports
 import valorant from '../../images/valorantlogo.png'
+import user1 from '../../images/user1.png';
+import user2 from '../../images/user2.jpeg';
+import user3 from '../../images/user3.jpeg';
+import user4 from '../../images/user4.png';
 
 function Cards() {
     return (
@@ -12,44 +18,44 @@ function Cards() {
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
-                        <CardItemOnline src={valorant}
+                        <CardItemOnline src={user1}
                         text='Playing: Valorant' //online offline
                         label='@trex' // username
                         path='/games/valorant' //path to user profile
                         />
-                        <CardItemOnline src={valorant}
+                        <CardItemOnline src={user2}
                         text='Playing: Rocket League'
                         label='@chicken1'
                         path='/games/rocketleague' //path to user profile
                         />
-                        <CardItemOnline src='../../images/gamelogo.png'
+                        <CardItemOnline src={user3}
                         text='Playing: Minecraft'
                         label='@noobster77'
                         path='/games/minecraft'
                         />
-                        <CardItemOnline src='../../images/gamelogo.png'
+                        <CardItemOnline src={user4}
                         text='Playing: Destiny'
                         label='@jj001'
                         path='/games/fortnite'
                         />
                     </ul>
                     <ul className='cards__items'>
-                        <CardItemOnline src='../../images/gamelogo.png'
+                        <CardItemOnline src={valorant}
                         text='Playing: League of Legends'
                         label='@zeusB'
                         path='/games/overwatch'
                         />
-                        <CardItem src='../../images/gamelogo.png'
+                        <CardItem src={valorant}
                         text='Offline'
                         label='@cassidy23'
                         path='/games/destiny'
                         />
-                        <CardItem src='../../images/gamelogo.png'
+                        <CardItem src={valorant}
                         text='Offline'
                         label='@fuzzybear66'
                         path='/games/apexlegends'
                         />
-                        <CardItem src='../../images/gamelogo.png'
+                        <CardItem src={valorant}
                         text='Offline'
                         label='@legendaryEagle'
                         path='/games/lol'

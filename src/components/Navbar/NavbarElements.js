@@ -41,7 +41,7 @@ export const NavbarContainer = styled.div`
     z-index: 1;
     width: 100%;
     padding: 0 24px;
-    max-width: 1100px;
+    max-width: 1700px;
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -86,6 +86,7 @@ export const NavMenu = styled.ul`
 export const NavItem = styled.li`
     height: 80px;
     padding: 40px;
+    width: 200px;
 `;
 
 export const NavLinks = styled(LinkR)`

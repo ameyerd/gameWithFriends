@@ -32,10 +32,10 @@ const Navbar = ({ toggle}) => {
                             </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="/friends">Friends</NavLinks>
+                            <NavLinks to="/games">Games</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="/games">Games</NavLinks>
+                            <NavLinks to="/friends">My Friends</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="/my-profile">My Profile</NavLinks>
