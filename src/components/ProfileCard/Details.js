@@ -1,13 +1,14 @@
 import React from 'react'
-import { DetailsContainer, Header, InnerContainer, SubHeader } from './ProfileCardElements'
+import { DetailsContainer, Header, InnerContainer, SubHeader__one, SubHeader__two } from './ProfileCardElements'
 
 const Details = () => {
     return (
         <div>
             <DetailsContainer>
                 <InnerContainer>
-                    <Header>About</Header>
-                    <SubHeader>slider will go under here</SubHeader>
+                    <Header>@trex</Header>
+                    <SubHeader__one>20, United States</SubHeader__one>
+                    <SubHeader__two>About Me: hello i am trex, i like frogs </SubHeader__two>
                 </InnerContainer>
             </DetailsContainer>
         </div>

@@ -1,7 +1,8 @@
 import React from 'react';
-import {CardContainer, ProfileContainer} from './ProfileCardElements';
+import {CardContainer, ProfileContainer, SliderContainer, SubHeader} from './ProfileCardElements';
 import SideImage from './sideImage';
 import Details from './Details';
+import Slider from '../Slider/slider';
 
 const ProfileCard = () => {
     return (
@@ -10,6 +11,10 @@ const ProfileCard = () => {
                 <CardContainer>
                     <SideImage />
                     <Details />
+                    <SliderContainer>
+                        <h1>Personality Traits</h1>
+                        <Slider />
+                    </SliderContainer>
                 </CardContainer>
             </ProfileContainer>
             

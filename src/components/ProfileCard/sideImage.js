@@ -1,17 +1,15 @@
 import React from 'react';
-import {SideImageContainer, Hname} from './ProfileCardElements';
+import {SideImageContainer} from './ProfileCardElements';
 
 import Image from 'react-bootstrap/Image'
-import valorant from '../../images/valorantlogo.png'
+import valorant from '../../images/user4.jpg'
 
-//Hname should use info from loggin in user
 
 const sideImage = () => {
     return (
         <div>
             <SideImageContainer>
-                <Image src={valorant} roundedCircle />
-                <Hname>@trex-test</Hname> 
+                <img src={valorant} class="img-thumbnail rounded-circle"></img>
             </SideImageContainer>
         </div>
     )

@@ -15,29 +15,31 @@ export const CardContainer = styled.div`
     display: flex;
     border-radius: 26px;
     position: relative;
+    margin: 0px 0px 50px 0px;
     border: 2px solid #DA4264;
-    background-color: rbga(246, 39, 39, 0.2);
-    backdrop-filter: blur(10px);
 `;
 
 export const SideImageContainer = styled.div`
     display: flex;
     flex: 1;
-    left: 70px;
-    top: 80px;
+    left: 150px;
+    top: 30px;
     position: relative;
 `;
 
-export const Hname = styled.h3`
+export const SliderContainer = styled.div`
+    width: 700px;
+    height: 500px;
     display: flex;
-    left: -170px;
-    top: 260px;
     position: relative;
-    color: #DA4264;
+    top: 50px;
+    right: 130px;
+    flex-direction: column;
 `;
 
 export const DetailsContainer = styled.div`
-    height: 100%
+    height: 100%;
+    left: 50px;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -47,20 +49,44 @@ export const DetailsContainer = styled.div`
 
 export const InnerContainer = styled.div`
     display: flex;
+    position: relative;
+    top: 90px;
+    right: 100px;
     flex-direction: column;
-    max-width: 80%
+    max-width: 100%
 `;
 
 export const Header = styled.h1`
-    margin: 10px 0;
+    margin: 5px 0;
     color: #DA4264;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 40px;
+    position: relative;
+    right: 140px;
+    top: 40px;
 `;
 
-export const SubHeader = styled.h1`
-    margin: 10px 0;
+export const SubHeader__one = styled.h1`
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 5px 0;
     color: #000;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
+    position: relative;
+    top: 40px;
+    right: 135px;
+`;
+
+export const SubHeader__two = styled.h1`
+    display: flex;
+    justify-content: flex-start;
+    width: 500px;
+    margin: 5px 0;
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+    top: 40px;
 `;

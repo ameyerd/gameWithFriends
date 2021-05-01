@@ -1,6 +1,9 @@
 import React, { useState} from 'react';
+import CardItem from '../../components/CardItem/CardItem';
+import {SingleCardContainer, GamesContainer} from './ProfileElements';
 
 import ProfileCard from '../../components/ProfileCard/ProfileCard';
+import valorant from '../../images/valorantlogo.png'
 
 const Profile = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -13,6 +16,32 @@ const Profile = () => {
         <>
             <ProfileCard />
             
+            <h1>Games You Play</h1>
+
+            <GamesContainer>
+                <SingleCardContainer>
+                    <CardItem src={valorant}
+                        text='Valorant'
+                        label='Valorant'
+                        path='/games/valorant'
+                    />
+                </SingleCardContainer>
+                <SingleCardContainer>
+                    <CardItem src='img.jpg'
+                        text='Destiny'
+                        label='Destiny'
+                        path='/games/destiny'
+                    />
+                </SingleCardContainer>
+                <SingleCardContainer>
+                    <CardItem src='img.jpg'
+                        text='Minecraft'
+                        label='Minecraft'
+                        path='/games/minecraft'
+                    />
+                </SingleCardContainer>
+            </GamesContainer>
+
         </>
     );
 };
