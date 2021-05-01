@@ -18,7 +18,7 @@ npm install react-scroll
 npm install react-icons --save
 npm install --save styled-components
 npm install bootstrap
-npm install react-slick --save
+npm install react-rangeslider --save
 ```
 
 To run:
