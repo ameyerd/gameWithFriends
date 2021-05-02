@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Video from '../../videos/grabcontroller.mp4';
+import Video from '../../videos/4K_247.mp4';
 import {SUButton} from '../ButtonElement';
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight} from './HeroElements';
 import Modal from 'react-bootstrap/Modal';
