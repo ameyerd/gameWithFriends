@@ -3,7 +3,10 @@ import CardItem from '../../components/CardItem/CardItem';
 import {SingleCardContainer, GamesContainer} from './ProfileElements';
 
 import ProfileCard from '../../components/ProfileCard/ProfileCard';
-import valorant from '../../images/valorantlogo.png'
+import valorant from '../../images/valorantlogo.png';
+import destiny from '../../images/destinylogo.jpg';
+import minecraft from '../../images/mclogo.jpg';
+
 
 const Profile = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -27,14 +30,14 @@ const Profile = () => {
                     />
                 </SingleCardContainer>
                 <SingleCardContainer>
-                    <CardItem src='img.jpg'
+                    <CardItem src={destiny}
                         text='Destiny'
                         label='Destiny'
                         path='/games/destiny'
                     />
                 </SingleCardContainer>
                 <SingleCardContainer>
-                    <CardItem src='img.jpg'
+                    <CardItem src={minecraft}
                         text='Minecraft'
                         label='Minecraft'
                         path='/games/minecraft'

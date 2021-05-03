@@ -1,3 +1,8 @@
+
+import home1 from '../../images/home1.png';
+import home2 from '../../images/home2.png';
+import home3 from '../../images/home3.png';
+
 export const homeObjOne = {
     lightBg: false,
     primary: true,
@@ -9,7 +14,7 @@ export const homeObjOne = {
     description: 'Choose your personality type, and allow others to see your card, as well as view others', 
     headline: 'Customize Your Own Personality Card', 
     topLine: 'Personality Cards',
-    img: require('../../images/img1.jpg'), 
+    img: home3, 
     alt: 'image', 
     start: ''
 };
@@ -25,7 +30,7 @@ export const homeObjTwo = {
     description: 'View other users game lists as well as showcase your own', 
     headline: 'Browse From Our Library Of Games And Add Them To Your List', 
     topLine: 'Discover Games',
-    img: require('../../images/img3.jpg'), 
+    img: home1, 
     alt: 'image', 
     start: 'true'
 };
@@ -41,7 +46,7 @@ export const homeObjThree = {
     description: 'Either look for players in our "Looking For Games" page, or add them from our suggested friends list', 
     headline: 'Meet New Gamers Who May Be Similar', 
     topLine: 'Find Friends',
-    img: require('../../images/img2.jpg'), 
+    img: home2, 
     alt: 'image', 
     start: ''
 };

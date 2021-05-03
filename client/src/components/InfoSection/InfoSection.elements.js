@@ -42,7 +42,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.div`
-    color: ${({lightTopLine}) => (lightTopLine ? '#a9b3c1' : '#4b59f7')};
+    color: ${({lightTopLine}) => (lightTopLine ? '#fff' : '#4b59f7')};
     font-size: 18px;
     line-height: 16px;
     letter-spacing: 1.4px;
@@ -62,7 +62,7 @@ export const Subtitle = styled.p`
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
-    color: ${({lightTextDesc}) => (lightTextDesc) ? '#a9b3c1' : '#1c2237'};
+    color: ${({lightTextDesc}) => (lightTextDesc) ? '#fff' : '#1c2237'};
 `;
 
 export const ImgWrapper = styled.div`

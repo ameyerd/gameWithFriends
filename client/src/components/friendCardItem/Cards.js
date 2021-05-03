@@ -9,6 +9,11 @@ import user1 from '../../images/user1.png';
 import user2 from '../../images/user2.jpeg';
 import user3 from '../../images/user3.jpeg';
 import user4 from '../../images/user4.jpg';
+import user5 from '../../images/user5.jpeg';
+import user6 from '../../images/user6.png';
+import user7 from '../../images/user7.png';
+import user8 from '../../images/user8.png';
+
 
 function Cards() {
     return (
@@ -40,22 +45,22 @@ function Cards() {
                         />
                     </ul>
                     <ul className='cards__items'>
-                        <CardItemOnline src={valorant}
+                        <CardItemOnline src={user5}
                         text='Playing: League of Legends'
                         label='@zeusB'
                         path='/games/overwatch'
                         />
-                        <CardItem src={valorant}
+                        <CardItem src={user6}
                         text='Offline'
                         label='@cassidy23'
                         path='/games/destiny'
                         />
-                        <CardItem src={valorant}
+                        <CardItem src={user7}
                         text='Offline'
                         label='@fuzzybear66'
                         path='/games/apexlegends'
                         />
-                        <CardItem src={valorant}
+                        <CardItem src={user8}
                         text='Offline'
                         label='@legendaryEagle'
                         path='/games/lol'

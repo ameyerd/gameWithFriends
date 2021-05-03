@@ -6,7 +6,19 @@ import "slick-carousel/slick/slick-theme.css";
 
 import CardItem from '../friendCardItem/CardItem';
 import '../friendCardItem/Cards.css';
-import valorant from '../../images/valorantlogo.png'
+
+//user images
+import user9 from '../../images/user9.jpeg';
+import user10 from '../../images/user10.png';
+import user11 from '../../images/user11.png';
+import user12 from '../../images/user12.png';
+import user13 from '../../images/user13.jpeg';
+import user14 from '../../images/user14.jpeg';
+import user15 from '../../images/user15.jpeg';
+import user16 from '../../images/user16.jpeg';
+import user17 from '../../images/user17.jpeg';
+//import user18 from '../../images/user18.jpeg';
+
 
 export default class MultipleItems extends Component {
   render() {
@@ -25,65 +37,65 @@ export default class MultipleItems extends Component {
 
         <Slider {...settings}>
             <div className='cards__wrapper'>
-                <CardItem src={valorant}
-                text='test'
-                label='@test'
+                <CardItem src={user9}
+                text='Valorant, Minecraft, Destiny'
+                label='@bboy71'
                 path='/games/valorant'
                 />
             </div>
             <div className='cards__wrapper'>
-                <CardItem src='img'
-                text='test'
-                label='@test'
+                <CardItem src={user10}
+                text='Valorant, Destiny'
+                label='@shrimpman'
                 path='/games/valorant'
                 />
             </div>
             <div className='cards__wrapper'>
-                <CardItem src='img'
-                text='test'
-                label='@test'
+                <CardItem src={user11}
+                text='Minecraft'
+                label='@pinky'
                 path='/games/valorant'
                 />
             </div>
             <div className='cards__wrapper'>
-                <CardItem src='img'
-                text='test'
-                label='@test'
+                <CardItem src={user12}
+                text='Destiny, Overwatch'
+                label='@wowo9'
                 path='/games/valorant'
                 />
             </div>
             <div className='cards__wrapper'>
-                <CardItem src='img'
-                text='test'
-                label='@test'
+                <CardItem src={user13}
+                text='League of Legends'
+                label='@pikachew'
                 path='/games/valorant'
                 />
             </div>
             <div className='cards__wrapper'>
-                <CardItem src='img'
-                text='test'
-                label='@test'
+                <CardItem src={user14}
+                text='Apex Legends, Call of Duty: Modern Warfare'
+                label='@bobbyj'
                 path='/games/valorant'
                 />
             </div>
             <div className='cards__wrapper'>
-                <CardItem src='img'
-                text='test'
-                label='@test'
+                <CardItem src={user15}
+                text='World of Warcraft, Among Us'
+                label='@flipper8'
                 path='/games/valorant'
                 />
             </div>
             <div className='cards__wrapper'>
-                <CardItem src='img'
-                text='test'
-                label='@test'
+                <CardItem src={user16}
+                text='Counter-Strike: Global Offensive, Among Us'
+                label='@kelli0'
                 path='/games/valorant'
                 />
             </div>
             <div className='cards__wrapper'>
-                <CardItem src='img'
-                text='test'
-                label='@test'
+                <CardItem src={user17}
+                text='Escape From Tarkov, Apex Legends'
+                label='@robloxman1'
                 path='/games/valorant'
                 />
             </div>

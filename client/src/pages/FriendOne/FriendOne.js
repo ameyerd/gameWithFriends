@@ -4,6 +4,8 @@ import {SingleCardContainer, GamesContainer} from './FriendOneElements';
 
 import FriendCard from '../../components/FriendOneCard/FriendCard';
 import valorant from '../../images/valorantlogo.png'
+import cod from '../../images/codmwlogo.jpg';
+import minecraft from '../../images/mclogo.jpg';
 
 const Profile = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -27,14 +29,14 @@ const Profile = () => {
                     />
                 </SingleCardContainer>
                 <SingleCardContainer>
-                    <CardItem src='img.jpg'
+                    <CardItem src={cod}
                         text='Call of Duty: Modern Warfare'
                         label='Call of Duty: Modern Warfare'
                         path='/games/cod'
                     />
                 </SingleCardContainer>
                 <SingleCardContainer>
-                    <CardItem src='img.jpg'
+                    <CardItem src={minecraft}
                         text='Minecraft'
                         label='Minecraft'
                         path='/games/minecraft'

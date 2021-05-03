@@ -15,7 +15,8 @@ import LFG from './pages/LFG/LFG';
 import Profile from './pages/Profile/Profile';
 import SignUp from './pages/SignUp/SignUp';
 import LogIn from './pages/LogIn/LogIn';
-import Test from './pages/Test/Test';
+import Suggestion from './pages/Suggestion/Suggestion';
+import ValorantG from './pages/GameOverview/Valorant';
 
 
 function App() {
@@ -46,7 +47,8 @@ function App() {
         <Route exact path="/my-profile/settings" component={UserSettings} />
         <Route exact path="/play" component={LFG} />
         <Route exact path="/lfg" component={LFG} />
-        <Route exact path="/test" component={Test} />
+        <Route exact path="/games/valorant" component={ValorantG}/>
+        <Route exact path="/suggestion" component={Suggestion} />
       </Switch>
 
     </Router>
