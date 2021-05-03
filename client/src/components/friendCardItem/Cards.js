@@ -21,7 +21,7 @@ function Cards() {
                         <CardItemOnline src={user1}
                         text='Playing: Valorant' //online offline
                         label='@trex' // username
-                        path='/games/valorant' //path to user profile
+                        path='/friends/friend-one' //path to user profile
                         />
                         <CardItemOnline src={user2}
                         text='Playing: Rocket League'

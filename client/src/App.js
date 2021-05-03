@@ -8,6 +8,7 @@ import '../src/App.css';
 //pages
 import Home from './pages/Home/Home';
 import Friends from './pages/Friends/Friends';
+import FriendOne from './pages/FriendOne/FriendOne'
 import UserSettings from './pages/UserSettings/UserSettings';
 import Games from './pages/Games/Games';
 import LFG from './pages/LFG/LFG';
@@ -37,12 +38,14 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/friends" component={Friends} />
+        <Route exact path="/friends/friend-one" component={FriendOne} />
         <Route exact path="/games" component={Games} />
         <Route exact path="/signup" component={SignUp} />
         <Route exact path="/login" component={LogIn} />
         <Route exact path="/my-profile" component={Profile} />
         <Route exact path="/my-profile/settings" component={UserSettings} />
         <Route exact path="/play" component={LFG} />
+        <Route exact path="/lfg" component={LFG} />
         <Route exact path="/test" component={Test} />
       </Switch>
 

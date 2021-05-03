@@ -91,15 +91,15 @@
     transition: 0.4s ease-out;
   }
   
-  .animated-form .form-group:focus-within label,
-  .animated-form .form-group.has-content label {
+  .animated-form .form-group label,
+  .animated-form .form-group label {
     top: 0px;
     transform: translateY(-100%);
     color: #FF7474;
   }
   
-  .animated-form .form-group:focus-within input, 
-  .animated-form .form-group.has-content input {
+  .animated-form .form-group input, 
+  .animated-form .form-group input {
     border-bottom-color: #FF7474;
   }
   .animated-form .form-group.flex-end {
@@ -133,6 +133,8 @@
     text-decoration: none;
     padding-bottom: 5px;
     border-bottom: 2px solid transparent;
+    display: flex;
+    justify-content: center;
   }
   .animated-form .lost-password a:hover {
     border-bottom-color: #FF7474;

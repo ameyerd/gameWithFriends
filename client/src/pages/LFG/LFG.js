@@ -1,19 +1,17 @@
-import React, { useState} from 'react';
+import React from 'react'
+import lfgImg from '../../images/lfg-chat-design.png';
+import {ImageContainer} from './LFGElements';
 
 const LFG = () => {
-    const [isOpen, setIsOpen] = useState(false)
-
-    const toggle = () => {
-        setIsOpen(!isOpen)
-    }
-
     return (
-        <>
-            
-            <h1>THIS IS THE LFG PAGE !! </h1>
-            
-        </>
-    );
-};
+        <div>
+            <h1>Coming Soon!</h1>
+            <ImageContainer>
+                <img src={lfgImg} />
+            </ImageContainer>
 
-export default LFG;
+        </div>
+    )
+}
+
+export default LFG

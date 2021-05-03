@@ -1,5 +1,6 @@
 
 .rangeslider {
+    pointer-events: all;
     background: linear-gradient(274deg, rgba(251,133,59,1) 0%, rgba(250,54,97,1) 76%, rgba(218,66,100,1) 100%);;
     display: flex;
     align-content: stretch;
@@ -28,6 +29,7 @@
 }
 
 .rangeslider .rangeslider__handle {
+    visibility: visible;
     z-index: 2;
     background: #fff;
     box-shadow: none;

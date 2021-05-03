@@ -11,22 +11,22 @@ const Sidebar = ({isOpen, toggle}) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="friends" onClick={toggle}>
+                    <SidebarLink to="/friends" onClick={toggle}>
                         Friends
                     </SidebarLink>
-                    <SidebarLink to="games" onClick={toggle}>
+                    <SidebarLink to="/games" onClick={toggle}>
                         Games
                     </SidebarLink>
-                    <SidebarLink to="play" onClick={toggle}>
+                    <SidebarLink to="/lfg" onClick={toggle}>
                         Looking To Play
                     </SidebarLink>
-                    <SidebarLink to="play" onClick={toggle}>
+                    <SidebarLink to="/my-profile" onClick={toggle}>
                         My Profile
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SideBarRoute to="/signin">
-                        Sign In
+                    <SideBarRoute to="/login">
+                        Log In
                     </SideBarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>

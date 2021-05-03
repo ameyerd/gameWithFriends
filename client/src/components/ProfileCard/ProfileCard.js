@@ -2,6 +2,7 @@ import React from 'react';
 import {CardContainer, ProfileContainer, SliderContainer, SubHeader} from './ProfileCardElements';
 import SideImage from './sideImage';
 import Details from './Details';
+
 import Slider from '../Slider/slider';
 
 const ProfileCard = () => {

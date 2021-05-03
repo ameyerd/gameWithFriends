@@ -6,9 +6,9 @@ const Details = () => {
         <div>
             <DetailsContainer>
                 <InnerContainer>
-                    <Header>@trex</Header>
+                    <Header>@seagull</Header>
                     <SubHeader__one>20, United States</SubHeader__one>
-                    <SubHeader__two>About Me: hello i am trex, i like frogs </SubHeader__two>
+                    <SubHeader__two>About Me: Hi! I love gaming! </SubHeader__two>
                 </InnerContainer>
             </DetailsContainer>
         </div>
