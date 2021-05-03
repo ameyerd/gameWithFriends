@@ -19,9 +19,15 @@ npm install react-icons --save
 npm install --save styled-components
 npm install bootstrap
 npm install react-rangeslider --save
+npm install react-slick --save
+npm install express, body-parser, mysql, nodemon, cors
 ```
 
-To run:
+To run front-end:
 ```
 npm start
+```
+To run back-end:
+```
+npm run devStart
 ```
