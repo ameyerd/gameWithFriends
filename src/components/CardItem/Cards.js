@@ -29,7 +29,8 @@ import madden from '../../images/madden logo.jpg';
 function Cards() {
     return (
         <div className='cards'>
-            <h1>Game Titles</h1>
+            <h1>Games</h1>
+            <h2>Click on a game card to view the contents of that game or add it to your list</h2>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>

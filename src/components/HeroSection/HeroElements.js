@@ -43,7 +43,7 @@ export const HeroContent = styled.div`
 
 export const HeroH1 = styled.h1`
     color: #fff;
-    font-size: 48px;
+    font-size: 60px;
     text-align: center;
     text-shadow: 1px 1px 25px black;
 
@@ -74,7 +74,7 @@ export const HeroP = styled.p`
 `
 
 export const HeroBtnWrapper = styled.div`
-    margin-top: 32px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;

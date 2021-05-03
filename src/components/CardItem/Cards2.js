@@ -26,10 +26,11 @@ import dbd from '../../images/dbdlogo.jpg';
 import sot from '../../images/sotlogo.png';
 import madden from '../../images/madden logo.jpg';
 
-function Cards() {
+function Cards2() {
     return (
         <div className='cards'>
-            <h1>Game Titles</h1>
+            <h1>Games</h1>
+            <h2>Click on a game card to view the messaging board for that game</h2>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
@@ -188,4 +189,4 @@ function Cards() {
     )
 }
 
-export default Cards
+export default Cards2

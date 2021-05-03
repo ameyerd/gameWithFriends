@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import Cards from '../../components/CardItem/Cards';
 import './Games.css';
 
-
 const Games = () => {
 
     return (

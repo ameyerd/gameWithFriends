@@ -1,4 +1,5 @@
 import React, { useState} from 'react';
+import './Suggestion.css';
 
 const Suggestion = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -9,8 +10,17 @@ const Suggestion = () => {
 
     return (
         <>
-            
-            <h1>SUGGESTION PAGE, Ill add form to submit game suggestion tomorrow</h1>
+        
+        <div class="container">
+        <form>
+            <br></br>
+            <label className="yuh2">
+                Game Suggestion: 
+                <input type="text" name="name" />
+            </label>
+            <input type="submit" value="Submit" />
+        </form>
+        </div>
             
         </>
     );
