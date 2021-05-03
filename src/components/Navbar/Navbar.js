@@ -40,6 +40,9 @@ const Navbar = ({ toggle}) => {
                         <NavItem>
                             <NavLinks to="/my-profile">My Profile</NavLinks>
                         </NavItem>
+                        <NavItem>
+                            <NavLinks to="/play">Looking For Games</NavLinks>
+                        </NavItem>
                     </NavMenu>
                     <NavBtn>
                         <NavBtnLink to="/signin">Sign In</NavBtnLink>

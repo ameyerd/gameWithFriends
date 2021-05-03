@@ -3,6 +3,25 @@
     background: #fff;
 }
 
+.v1 {
+  border-left: 80px solid white;
+}
+
+.v2 {
+  border-left: 20px solid white;
+}
+
+h3{
+  text-align: center;
+  padding-top: 75px;
+  font-size: 15px;
+}
+
+h2{
+  text-align: center;
+  font-size: 20px;
+}
+
 h1{
     text-align: center;
 }
@@ -22,7 +41,7 @@ h1{
 }
 
 .cards__items {
-    margin-bottom: 24px;
+    margin-bottom: 50px;
 }
 
 .cards__item {
@@ -66,7 +85,7 @@ h1{
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background-color: #1f98f4;
+    background-color: #000;
     box-sizing: border-box;
   }
   
@@ -90,13 +109,13 @@ h1{
   }
   
   .cards__item__info {
-    padding: 20px 30px 30px;
+    padding: 1px 90px 50px;
   }
   
   .cards__item__text {
     color: #252e48;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 30px;
   }
   
   @media only screen and (min-width: 1200px) {

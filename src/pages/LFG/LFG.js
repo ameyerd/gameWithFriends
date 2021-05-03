@@ -1,4 +1,5 @@
 import React, { useState} from 'react';
+import Cards2 from '../../components/CardItem/Cards2';
 
 const LFG = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -10,7 +11,8 @@ const LFG = () => {
     return (
         <>
             
-            <h1>THIS IS THE LFG PAGE !! </h1>
+            <Cards2 />
+            <h3>Your game not found in our library? Make a suggestion <a href="/suggestion">here</a>.</h3>
             
         </>
     );

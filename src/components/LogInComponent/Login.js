@@ -8,7 +8,7 @@ function Login() {
       
       <div class="left-panel">
         <div class="image">
-          <img src="image.png" alt="Image" class="image" />
+          <img src="" alt="Image" class="image" />
         </div>
         <h2>Find friends to game with.</h2>
       </div>

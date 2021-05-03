@@ -1,21 +1,13 @@
 import React, {useState} from 'react';
 import Cards from '../../components/CardItem/Cards';
-
-//Navbar
-import Navbar from '../../components/Navbar/Navbar';
-import Sidebar from '../../components/Sidebar/Sidebar';
+import './Games.css';
 
 const Games = () => {
-    const [isOpen, setIsOpen] = useState(false)
-
-    const toggle = () => {
-        setIsOpen(!isOpen)
-    }
 
     return (
         <>   
-
             <Cards />
+            <h3>Your game not found in our library? Make a suggestion <a href="/suggestion">here</a>.</h3>
             
         </>
     );
